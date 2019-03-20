@@ -1,0 +1,38 @@
+.rectangle-24{
+    height: 25px;	
+    width: 320px;
+    text-align:center;	
+    background-color: #808080;
+}
+
+.envio-gratis-a-parti {	
+    color: #FFFFFF;	
+    font-family: "Brandon Grotesque";	
+    font-size: 12px;	
+    font-weight: 500;	
+    line-height: 18px;
+}
+
+
+.shape {	
+    height: 16px;	
+    width: 18px;
+}
+
+.sinborde{
+    border:0px;
+}
+.fill-1 {	
+    height: 18.88px;	
+    width: 20.27px;}
+
+.oval-3 {	
+        height: 27px;	
+        width: 27px;	
+        background-color: #F4F3F1;
+}
+
+.fill-7 {	
+        height: 22.08px;	
+        width: 95.43px;
+}
