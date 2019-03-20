@@ -22,72 +22,106 @@
 </head>
 
 <body>
+    <!--div GRIS-->
 
-    <div class="rectangle-24 col-xs-12">
-        <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="IMG/delivery-box.svg">¿Necesitas ayuda? 9491951995</p>
-        <p class="envio-gratis-a-parti"> <img class="shape" src="IMG/delivery-box.svg"> Envio gratis a partir de 45€</p>
-        <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="IMG/delivery-box.svg"> 30 de plazo-Devolución gratuita</p>
-    </div>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class=" sinborde navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <img class="fill-1" src="IMG/menu_mobile.svg">
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">SUPLEMENTOS<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">PLANTAS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ALIMENTACIÓN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">COSMÉTICA</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HIGIENE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MAMÁ Y BEBE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HIGIENE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">HUERTO</a>
-                </li>
-
-            </ul>
-
-            
+    <div class="row">
+        <div class="rectangle-24 col-12 col-lg-12">
+            <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="IMG/delivery-box.svg">¿Necesitas
+                ayuda? 9491951995</p>
+            <p class="envio-gratis-a-parti"> <img class="shape" src="IMG/delivery-box.svg"> Envio gratis a partir de 45€
+            </p>
+            <p class="envio-gratis-a-parti claseVisible"> <img class="shape" src="IMG/delivery-box.svg"> 30 de
+                plazo-Devolución gratuita</p>
         </div>
-        <span class="oval-3"><img src="IMG/telephone.svg"></span>
-        <img class="fill-7" src="IMG/logo_naturitas.svg">
-        <img class="fill-4" src="IMG/iconoCuenta.svg">
-        <img class="fill-1" src="IMG/cart.svg">
-
-    </nav>
 
 
+        <!--NAV-BAR DESPLEGABLE-->
+        <div class="col-2 col-sm-2 col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="sinborde navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img class="fill-1" src="IMG/menu_mobile.svg">
+                </button>
 
-    <div class="form-group input-group">
-        <input type="text" class="form-control bg-busca" placeholder="¿Qué buscas hoy?">
-        <span class="input-group-btn">
-            <button class="bg-button" type="button">
-                <span class=""> <img class="search-material" src="IMG/search.svg"> </span>
-            </button>
-        </span>
+                <!--OPCIONES DEL MENÚ-->
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">SUPLEMENTOS<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PLANTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ALIMENTACIÓN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COSMÉTICA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HIGIENE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAMÁ Y BEBE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HIGIENE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HUERTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        
+        <div class="imagenes col-9 col-sm-9 col-lg-12">
+            <div class="row">
+                <div class="col-1 col-sm-1 visible">
+                    <img class="oval-3" src="IMG/telephone.svg">
+                </div>
+                <div class="col-6 col-sm-5 col-lg-5">
+                <img class="fill-7" src="IMG/logo_naturitas.svg">
+                </div>
+
+                <div class="col-2 col-sm-4 col-lg-4 nav-item visible">
+                        <img src="IMG/iconoCuenta.svg">
+                </div>
+
+                <div class="col-2 col-sm-4 col-lg-4 nav-item dropdown claseVisible">
+                        <a class="nav-link dropdown-toggle texto" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="IMG/iconoCuenta.svg">mi Cuenta
+                        </a>
+                        <div class=" dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Lorem</a>
+                        </div>                        
+                    </div>
+                <div class="col-2 col-sm-2 col-lg-2">
+                <img class="fill-1" src="IMG/cart.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-lg-6">
+            <from class="form-group input-group">
+                <input type="text" class="form-control bg-busca" placeholder="¿Qué buscas hoy?">
+                <span class="input-group-btn">
+                    <button class="bg-button" type="button">
+                        <span class=""> <img class="search-material" src="IMG/search.svg"> </span>
+                    </button>
+                </span>
+            </from>
+        </div>
+
     </div>
 
-    <div class="rectangle-18 col-xs-12">
+    <div class="rectangle-18 col-xs-4">
         <p class="promociones-de-invi">¿Promociones de invierno! Envio gratis para Cosmética</p>
     </div>
+
 
     <div class="i-stock-637899066">
         <p class="rebajas-70">Rebajas -70%</p>
