@@ -16,13 +16,11 @@
 }
 
 .imagenes{
-    margin-top:3%;
+    margin-top:2%;
+    display:inline-block;
 }
 
 
-.claseVisible{
-    display:none;
-}
 
 
 .shape {	
@@ -75,7 +73,7 @@
     width: 100%;
     height: 300px;	
     text-align:center;
-    
+    padding-top:5%;
 }
 
 .rebajas-70 {	
@@ -100,63 +98,33 @@
 
 .mask {	
     margin-top:20px;
-    position:relative;
-    height: 100px;	
-    width:300px;	
-    border-radius: 6px;	
-    background-color: rgb(240, 239, 239);
+    background-image:url("../IMG/bannerp_01_mob.jpg");	
+    background-repeat:no-repeat;
     background-size:cover;
-    background-position:center;
-    z-index: -2;
-}
-
-.bitmap {	
-
-    position:absolute; 
-    height: 101px;	
-    width: 198px;
-    margin-left:50%;
-    z-index: -1;
-}
-
-.bitmap2 {	
-
-    position:absolute; 
-    height: 40px;	
-    width: 122px;
-    margin:auto;
-    z-index: -1;
-}
-
-.alimentos-sanos-y-ec {	
-
-    position:absolute;
-    margin-top:15%;
-    height: 40px;	
-    width: 145px;	
-    color: #4A4A4A;  
-    font-family: "Brandon Grotesque";	    
-    font-size: 16px;	    
-    font-weight: 500;	
-    line-height: 20px;	
-    text-align: center;
-    z-index: -1;
+    height: 100px;	
+    width:500px;
 }
 
 
-.combined-shape 
-{	
-    position:absolute;
-    height: 69.95px;	
-    width: 75.23px;
-    margin-left:150px;
-    z-index: 1;
+.favoritos {	height: 23px;	width: 59px;	color: #4A4A4A;	font-family: "Brandon Grotesque";	font-size: 16px;	font-weight: bold;	line-height: 23px;}
+
+.fill-11 {	
+    height: 40.88px;	
+    width: 120.27px;
 }
+
+
+
+/*-------------------------visibilidad en pequeño-----------------------------*/
 
 .visible{
     display:inline;
 }
 
+/*-------------------------visibilidad para grande -----------------------------*/
+.claseVisible{
+    display:none;
+}
 
 
 /*-------------------------desktop-----------------------------*/
@@ -179,5 +147,42 @@
     .texto{
         font-size:12px;
     }
+
+    
+.fill-9 {	
+    margin-left:8%;
+
+}
+
+.flexible{
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.mask {	
+    margin-top:20px;
+    background-image:url("../IMG/bannerp_01_mob.jpg");	
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100px;	
+    width:500px;
+}
+
+.mask2 {
+    margin-top:20px;
+    background-image:url("../IMG/bannerp_02.jpg");	
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100px;	
+    width:500px;
+}
+
+.ofertas{
+    color: #EE7D6D;	
+    font-size:14px;
+
+}
+
 }
    
