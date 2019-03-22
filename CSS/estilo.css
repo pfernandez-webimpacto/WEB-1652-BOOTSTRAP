@@ -51,7 +51,7 @@ background-color: #F4F3F1;
 /*IMG LOGO MENU*/
 .fill-7 {
 height: 22.08px;
-width: 95.43px;
+width: 120.43px;
 }
 
 /*IMG LOGO MENU*/
@@ -80,6 +80,10 @@ width:100%;
 width: 100%;
 border: 1px solid #EBE7E4;
 background-color: #FBFAF9;
+}
+
+.bg-busca::placeholder { 
+    font-weight: bold; 
 }
 
 /*banner*/
@@ -166,6 +170,7 @@ display:inline;
 }
 
 /*-------------------------visibilidad pc -----------------------------*/
+
 .claseVisible{
 display:none;
 }
@@ -192,6 +197,7 @@ display:none;
 /*TEXTO LOGO MENU*/
 .texto{
 font-size:12px;
+color:black;
 }
 
 /*IMG LOGO MENU*/
